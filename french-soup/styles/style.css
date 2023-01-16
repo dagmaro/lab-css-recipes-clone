@@ -26,6 +26,7 @@ header img {
     margin-left: 40px;
     font-size: 40px;
 }
+
 .imagen-preparation {
   display: block;
    margin-left: auto;
@@ -51,6 +52,10 @@ hr {
   margin-bottom: 30px;
   margin-left: auto;
   width: 100%;
+}
+
+ul {
+  
 }
 
 ol{

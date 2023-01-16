@@ -1,76 +1,67 @@
- @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
 
  body {
-    font-family: 'Raleway';
+    font-family: 'Roboto';
  }
 
- .pie-imagen {
-    width: 100%;
- }
+ header img {
+  width: 100%;
+}
 
- .titulo-del-encabezado{
-   position: absolute;
+#justify-title {
+  position: absolute;
    top: 80%;
    left: 50%;
    transform: translate(-50%, -50%);
    font-size: 80px;
    font-weight: bold;
    color: white;
- }
- 
- .first-section p{
-    margin: 40px;
-    text-align: center;
-    font-weight: bold;
- }
-
- .tiempo-kcal {
-   display: block;
-   margin-left: auto;
-   margin-right: auto;
-   width: 35%;
- } 
-
- h3{
-   font-weight: bold;
- }
- .second-section {
-   margin: 40px;
- }
-
- ul {
-   list-style-type: "-";
-   font-weight: bold;
- }
-
- .preparacion-receta {
-   display: block;
-   margin-left: auto;
-   margin-right: auto;
-   width: 30%;
- }
-
- .third-section {
-   margin: 40px;
-   font-weight: bold;
- }
-
-hr {
-   margin-top: 20px;
-   margin-right: auto;
-   margin-bottom: 30px;
-   margin-left: auto;
-   width: 100%;
 }
 
+#first-section {
+    margin-left: 40px;
+    font-size: 43px;
+}
+
+.preparation-cooking {
+  display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 45%;
+
+}
+
+#second-section{
+  margin-left: 40px;
+  font-size: 30px;
+}
+
+#third-section {
+  margin-left: 40px;
+  font-size: 28px;
+  margin-bottom: 80px;
+}
+
+hr {
+  text-align: left;
+  margin-left: 0;
+  width: 90%;
+  border: 1px solid;
+}
+
+ul {
+  list-style-type: "-";
+}
 ol{
-   list-style: none;
+  list-style: none;
 }
 
 ol > li {
-   counter-increment: listcounter;
+  counter-increment: listcounter;
 }
 
 ol > li::before {
-   content: counter(listcounter) ")";
+  content: counter(listcounter) ")";
 }
