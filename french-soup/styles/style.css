@@ -12,7 +12,7 @@ header img {
   width: 100%;
 }
 
-#hola-ponte-bien {
+#justify-title {
   position: absolute;
    top: 80%;
    left: 50%;
@@ -24,14 +24,14 @@ header img {
 
 .justify-content {
     margin-left: 40px;
-    font-size: 40px;
+    font-size: 38px;
 }
 
 .imagen-preparation {
   display: block;
    margin-left: auto;
    margin-right: auto;
-   width: 35%;
+   width: 40%;
 
 }
 
@@ -47,15 +47,14 @@ header img {
 }
 
 hr {
-  margin-top: 20px;
-  margin-right: auto;
-  margin-bottom: 30px;
-  margin-left: auto;
-  width: 100%;
+  text-align: left;
+  margin-left: 0;
+  width: 90%;
+  border: 1px solid;
 }
 
 ul {
-  
+  list-style-type: "-";
 }
 
 ol{
