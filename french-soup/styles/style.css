@@ -7,3 +7,61 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+header img {
+  width: 100%;
+}
+
+#hola-ponte-bien {
+  position: absolute;
+   top: 80%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   font-size: 80px;
+   font-weight: bold;
+   color: white;
+}
+
+.justify-content {
+    margin-left: 40px;
+    font-size: 40px;
+}
+.imagen-preparation {
+  display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 35%;
+
+}
+
+.justify-another-content{
+  margin-left: 40px;
+  font-size: 35px;
+}
+
+.justify-the-last-content {
+  margin-left: 40px;
+  font-size: 30px;
+  margin-bottom: 60px;
+}
+
+hr {
+  margin-top: 20px;
+  margin-right: auto;
+  margin-bottom: 30px;
+  margin-left: auto;
+  width: 100%;
+}
+
+ol{
+  list-style: none;
+}
+
+ol > li {
+  counter-increment: listcounter;
+}
+
+ol > li::before {
+  content: counter(listcounter) ")";
+}
+
