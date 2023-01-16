@@ -1,0 +1,76 @@
+ @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
+ body {
+    font-family: 'Raleway';
+ }
+
+ .pie-imagen {
+    width: 100%;
+ }
+
+ .titulo-del-encabezado{
+   position: absolute;
+   top: 80%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   font-size: 80px;
+   font-weight: bold;
+   color: white;
+ }
+ 
+ .first-section p{
+    margin: 40px;
+    text-align: center;
+    font-weight: bold;
+ }
+
+ .tiempo-kcal {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 35%;
+ } 
+
+ h3{
+   font-weight: bold;
+ }
+ .second-section {
+   margin: 40px;
+ }
+
+ ul {
+   list-style-type: "-";
+   font-weight: bold;
+ }
+
+ .preparacion-receta {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 30%;
+ }
+
+ .third-section {
+   margin: 40px;
+   font-weight: bold;
+ }
+
+hr {
+   margin-top: 20px;
+   margin-right: auto;
+   margin-bottom: 30px;
+   margin-left: auto;
+   width: 100%;
+}
+
+ol{
+   list-style: none;
+}
+
+ol > li {
+   counter-increment: listcounter;
+}
+
+ol > li::before {
+   content: counter(listcounter) ")";
+}
